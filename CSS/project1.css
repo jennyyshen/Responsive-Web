@@ -1,0 +1,111 @@
+body{
+	width:90%;
+	margin: 0 auto;
+	overflow: scroll;
+}
+
+h3{
+	text-align: center;
+}
+
+aside{
+	max-width: 30%;
+}
+
+.flex-grid{
+	display: flex;
+	overflow: auto;
+}
+
+.flex-grid-thirds{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 2em;
+}
+
+#title{
+	text-align: center;
+	height: 5em;
+}
+
+#title h1{
+	color: purple;
+}
+
+#logo{
+	width: 5%; 
+	float: left;
+}
+
+
+/*navigation bar */
+nav{
+	display: block; 
+	background-color: #efefef;
+	clear: both;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 1em;
+}
+
+nav ul li{ 
+	float: left;
+	margin: 0 2em;
+}
+
+nav ul{
+	list-style-type: none;
+	padding:0;
+	margin: 0 auto;
+	width: 30em;
+}
+
+.navlinks{
+	display: block;
+	padding: .5em;
+	border: 1px solid #ba89a8;
+	border-radius: .5em;
+	margin: .25em;
+}
+
+/* the leftmost column, "about us"*/
+
+#info{
+	margin-right:2%; 
+	padding: 1em;
+	text-align: left;
+	background-color: #ADD8E6;
+}
+
+#content{
+	background-color: #efefef; 
+	overflow: auto;
+	padding: 1em;
+}
+
+/** photo in the center **/
+#centerPhoto{
+	width: 48%;
+	margin-right: 2%;
+	float: left;
+	min-height: 10em;
+}
+
+#playsSection{
+	text-align: center;
+	color: purple;
+}
+
+section{
+	flex-wrap: column wrap;
+}
+
+#plays img{
+	  height: 10em;
+	  margin: 0 1em 1em 0;
+}
+
+
+
+
